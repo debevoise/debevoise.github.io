@@ -3495,10 +3495,10 @@ input, select, textarea {
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
 				object-fit: cover;
-				-moz-object-position: center;
-				-webkit-object-position: center;
-				-ms-object-position: center;
-				object-position: center;
+				-moz-object-position: left;
+				-webkit-object-position: left;
+				-ms-object-position: left;
+				object-position: left;
 				display: block;
 				position: absolute;
 				top: 0;
@@ -4888,7 +4888,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 35%;
+			width: 40%;
 			min-width: 25rem;
 			border-radius: 0;
 		}
@@ -4898,10 +4898,10 @@ input, select, textarea {
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
 				object-fit: cover;
-				-moz-object-position: center;
-				-webkit-object-position: center;
-				-ms-object-position: center;
-				object-position: center;
+				-moz-object-position: left;
+				-webkit-object-position: left;
+				-ms-object-position: left;
+				object-position: left;
 				display: block;
 				position: absolute;
 				top: 0;
@@ -5793,10 +5793,10 @@ input, select, textarea {
 		}
 
 		.spotlight.style5.image-position-right .image img {
-			-moz-object-position: right;
-			-webkit-object-position: right;
-			-ms-object-position: right;
-			object-position: right;
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
 		}
 
 	.spotlight .image {
@@ -8563,7 +8563,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color2 {
-			background-color: #db8992;
+			background-color: rgb(4, 111, 170);
 		}
 
 		#wrapper > .color3 {
@@ -8601,3 +8601,10 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+
+		.icon > img {
+			width: auto;
+			height: 80px;
+		}
