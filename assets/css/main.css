@@ -1,5 +1,27 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+.icon img {
+  width: 70%;
+  height: auto; }
+
+.image img {
+  object-position: left !important; }
+
+.gradient1 {
+  background-image: linear-gradient(#c78316, #8a0000); }
+
+.gradient2 {
+  background: #222222 !important; }
+
+.gradient3 {
+  background-image: linear-gradient(to right, #101010, #101010, #446eaa); }
+
+.gradient4 {
+  background-image: linear-gradient(to right, #9E64E4, #EFD3AE); }
+
+.gradient5 {
+  background-image: linear-gradient(to right, #2c2666, #280A1D); }
+
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -5769,15 +5791,15 @@ body.is-preload .items.onload-fade-in > * > .inner {
     #wrapper > .invert .index > * {
       border-top-color: white; }
   #wrapper > .color1 {
-    background-color: #3a2255; }
+    background-color: #636264; }
   #wrapper > .color2 {
     background-color: #026faa; }
   #wrapper > .color3 {
-    background-color: #611313; }
+    background-color: #3f3f3f; }
   #wrapper > .color4 {
-    background-color: #253062; }
+    background-color: #1d2c70; }
   #wrapper > .color5 {
-    background-color: #7794ce; }
+    background-color: #252c3b; }
   #wrapper > .color6 {
     background-color: #64abb4; }
   #wrapper > .color7 {
