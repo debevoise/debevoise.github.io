@@ -1,0 +1,33 @@
+.icon img {
+    width: 70%;
+    height: auto;
+    
+}
+
+.image img {
+    object-position: left !important;
+}
+
+.gradient1 {
+    background-image: linear-gradient( rgb(199, 131, 22), rgb(138, 0, 0));
+}
+
+
+.gradient2 {
+    // background-image: linear-gradient( rgb(0, 0, 0), rgb(0, 0, 97));
+    background: rgb(34, 34, 34) !important;
+}
+
+
+.gradient3 {
+    background-image: linear-gradient(to right, #101010, #101010, #446eaa);
+}
+
+.gradient4 {
+    background-image: linear-gradient(to right, #9E64E4,#EFD3AE);
+}
+
+.gradient5 {
+    background-image: linear-gradient(to right, #2c2666, #280A1D, );
+}
+

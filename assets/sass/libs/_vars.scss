@@ -48,13 +48,15 @@
 
 // Palette.
 	$palette: (
-		color1:				#3a2255,
+		color1:				#636264,
 		color2:				rgb(2, 111, 170),
-		color3:				#611313,
-		color4:				#253062,
-		color5:				#7794ce,
+		color3:				#3f3f3f,
+		color4:				#1d2c70,
+		color5:				rgb(37, 44, 59),
 		color6:				#64abb4,
 		color7:				#6ba78c,
+
+		gradient1:			linear-gradient(red, orange),
 
 		bg:					#ffffff,
 		bg-alt:				#eeeeee,
