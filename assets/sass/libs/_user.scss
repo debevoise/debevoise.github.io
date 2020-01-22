@@ -20,7 +20,7 @@
 
 .gradient2 {
     // background-image: linear-gradient( rgb(0, 0, 0), rgb(0, 0, 97));
-    background: rgb(34, 34, 34) !important;
+    background-image: linear-gradient(  #020525, #0d1894)
 }
 
 
@@ -36,3 +36,6 @@
     background-image: linear-gradient(to right, #2c2666, #280A1D, );
 }
 
+.gradient6 {
+    background-image: linear-gradient(to left, #21afda, #020525 );
+}
