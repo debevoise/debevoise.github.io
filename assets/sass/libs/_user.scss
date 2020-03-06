@@ -10,15 +10,18 @@ html {
 .icon img {
     width: 70%;
     height: auto;
-    
 }
 
 .image img {
     object-position: left !important;
 }
 
+.gradient-portefeuille {
+    background-image: linear-gradient(to right, #d6623f, #2D0146);
+}
+
 .gradient1 {
-    background-image: linear-gradient( rgb(199, 131, 22), rgb(138, 0, 0));
+    background-image: linear-gradient( rgb(199, 131, 22), rgb(134, 1, 1));
 }
 
 
@@ -43,3 +46,4 @@ html {
 .gradient6 {
     background-image: linear-gradient(to left, rgb(240, 82, 82), #020525 );
 }
+

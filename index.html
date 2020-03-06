@@ -11,7 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Serif&display=swap"
 			rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+		<link rel="stylesheet" href="assets/sass/main.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,8 +52,6 @@
 								Check out some of my sick projects and skills below. 
 							</p>
 							<ul class="actions">
-								<!-- <li><a href="https://www.linkedin.com/in/simon-debevoise-5303b474/" target="_blank" rel="noopener" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
-								<!-- <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 								<li><a href="https://www.github.com/debevoise/" target="_blank" rel="noopener"
 										class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
 								<li><a href="https://www.linkedin.com/in/simondebevoise/" target="_blank" rel="noopener"
@@ -117,6 +116,9 @@
 							<p>Splat is an interactive, easy-to-use audio sampler and sequencer. Users can create beats by simply pressing keys or
 							clicking. Like Hip Hop? 80s Synth Pop? Disco? Easily customize your sound by selecting one of Splat's many diverse sound banks. The sequencer allows users to layer samples over a four measure loop to dynamically create songs.
 							</p>
+							<p>
+								Built on a MongoDB, Express.js, React / Redux, and Node.js (MERN) stack. Splat uses Tone.js to control swing and ensure sample-accurate timing for audio-sequencer playback.
+							</p>
 							<ul class="actions ">
 								<li><a href="https://github.com/debevoise/splat" class="button" target="_blank" rel="noopener noreferrer">Github</a></li>
 								<li><a href="https://splat-music.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="button">Live Site</a></li>
@@ -127,7 +129,19 @@
 						</div>
 					</section>
 
-				
+					<section class="gradient-portefeuille spotlight style1 invert orient-left content-align-left image-position-center onscroll-image-fade-in ">
+						<div class="content">
+							<h2>Portefeuille</h2>
+							<p>A stock portfolio web app. Sign up to Portefeuille to buy stocks with fake money, keep track of your transactions, and follow the ups and downs of market prices. API requests to <a href="https://iexcloud.io" target="_blank" rel="noopener noreferrer">IEX Cloud</a> provide real-time market data. Built on a Ruby on Rails, Postgres, React / Redux stack for the NYC Tech Talent Pipeline coding challenge.</p>
+							<ul class="actions ">
+								<li><a href="https://github.com/debevoise/Portefeuille" target="_blank" rel="noopener noreferrer" class="button">Github</a></li>
+								<li><a href="http://portefeuille-stocks.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="button">Live Site</a></li>
+							</ul>
+						</div> 
+						<div class="image">
+							<img src="images/portefeuille.png" alt="Portefeuille" />
+						</div>
+					</section>
 				<!-- Six -->
 					<section class="wrapper style2 color7 align-center">
 						<div class="inner">
@@ -139,7 +153,6 @@
 										<img src="./images/logos/ruby-plain.svg" alt="">
 									</span>
 									<h3>Ruby</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p> -->
 								</section>
 								<section>
 									<span class="icon solid style2 major">
@@ -234,19 +247,6 @@
 						</div>
 					</section>
 
-				<!-- Seven -->
-					<!-- <section class='spotlight style2 header invert gradient6 content-align-center'>
-						<div class="content">
-							<h2>Looking for more?</h2>
-							<p></p>
-							<hr>
-							<a class="button big wide" target="_blank" rel="noopener" href="download/Simon_DeBevoise_Resume.pdf">Check out my resume</a>
-							
-						</div>
-						<div class="image">
-							<img src="images/guitar.JPG" alt="Guitar" />
-						</div>
-					</section> -->
 				<!-- Footer -->
 					<footer class="wrapper style1 invert color7 align-center">
 						<div class="inner header">
